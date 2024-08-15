@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-
-	"rsc.io/quote"
 )
 
+var i, j int = 1, 2
+
 func main() {
-	fmt.Println(quote.Go())
+	var java, php = true, "php"
+
+	fmt.Println(i, j, java, php)
 }
